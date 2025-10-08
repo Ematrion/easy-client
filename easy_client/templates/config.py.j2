@@ -1,0 +1,18 @@
+from pydantic import BaseSettings
+
+
+class Settings(BaseSettings):
+    """Project settings for {{ api_name }} API."""
+    {{ api_name|upper }}_API_KEY: str = ""
+    {{ api_name|upper}}_API_URL: str = ""
+
+    {% for endpoint in endpoints %}
+    {{ endpoint|upper }}_URL: str = ""
+    {% endfor %}
+
+    class Config:
+        env_file = ".env"
+        env_file_encoding = "utf-8"
+
+
+settings = Settings()
