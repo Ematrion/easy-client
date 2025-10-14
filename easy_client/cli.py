@@ -2,7 +2,7 @@ import argparse
 import os
 from pathlib import Path
 
-from easy_client.commands import commands as cmd
+import easy_client.commands as cmd
 
 cwd = os.getcwd()
 
@@ -14,3 +14,9 @@ def main():
 
     if args.command == 'create':
         cmd.create(root=Path(cwd))
+
+    if args.command == 'fetch':
+        cmd.fetch(root=Path(cwd))
+
+    if args.command == 'validate':
+        cmd.validate(root=Path(cwd))

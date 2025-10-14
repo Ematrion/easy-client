@@ -13,6 +13,7 @@ class ProjectBuilder(PackageBuilder):
         self.api_path = self.root / self.api_name
 
         # project structure
+        """
         self.tree = {
             root / api_name: {
                 "tests": {},            # pytest suits
@@ -27,6 +28,50 @@ class ProjectBuilder(PackageBuilder):
                     "inspect": {},      # interactive scripts
                 },
             },
+        }"""
+
+        self.tree = {
+            root / api_name: {
+                "tests": {},  # pytest tests for steps
+                api_name: {  # main Python package
+                    "__init__.py": None,
+                    "config.py": None,
+                    "main.py": None,  # optional pipeline entrypoint
+                    "client": {
+                        "__init__.py": None,
+                        "fetch": {
+                            "__init__.py": None,
+                            "fetcher.py": None,  # BaseClass for fetching
+                            "params.py": None,  # request parameters
+                        },
+                        "validate": {
+                            **{"__init__.py": None},
+                            **{f"{ep}.py": None for ep in self.endpoints},
+                        },
+                        "enrich": {
+                            "__init__.py": None,
+                        },
+                        "transform": {
+                            **{"__init__.py": None},
+                            **{f"{ep}.py": None for ep in self.endpoints},
+                        },
+                        "store": {
+                            "__init__.py": None,
+                        },
+                    },
+                    "utils": {
+                        "__init__.py": None,
+                    },
+                },
+                "data": {
+                    "raw": {},
+                    "validated": {},
+                    "transformed": {},
+                    "enriched": {},
+                },
+                "README.md": None,
+                "TODO.md": None,
+            }
         }
 
         # tracking created paths
@@ -44,6 +89,18 @@ class ProjectBuilder(PackageBuilder):
                 self._mk_dir(root / path)
                 if content:
                     self.create(root=root / path, tree=content)
+
+    def get_path(self, file_name: str) -> Path:
+        matches = [
+            path for path in self.created if path.name.endswith(file_name)]
+        if not matches:
+            msg = f"No created file ends with {file_name}"
+            raise ValueError(msg)
+        if len(matches) > 1:
+            msg = f"Multiple created files end with {file_name}"
+            raise ValueError(msg)
+        else:
+            return matches[0]  # exactly one match
 
     # --- creating of dir/files --- #
     '''

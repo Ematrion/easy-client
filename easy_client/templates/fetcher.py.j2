@@ -1,8 +1,10 @@
 from easy_client import ApiFetcher
-from easy_client.types import Header, ResponseData # QueryParams
+from easy_client.types import Header, ResponseData
 from typing import Any
 
-from {{ api_name }}.config import settings
+from .params import get_default_params
+
+from config import settings
 
 
 class {{ api_name|capitalize }}Fetcher(ApiFetcher):
@@ -17,10 +19,10 @@ class {{ api_name|capitalize }}Fetcher(ApiFetcher):
         }
         super().__init__(base_url, headers)
 {% for endpoint in endpoints %}
-    def fetch_{{ endpoint }}(self, id: str = ..., headers: Header | None = None, **kwargs: Any) -> ResponseData:
+    def fetch_{{ endpoint }}(self, headers: Header | None = None, **kwargs: Any) -> ResponseData:
     
         # TODO: edit params
-        params: QueryParams = {}
+        params = get_default_params("{{ endpoint }}")
         params.update(kwargs)
         
         return self._request_handler(settings.{{ endpoint|upper }}_URL, headers=headers, params=params)

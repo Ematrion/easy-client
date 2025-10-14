@@ -1,0 +1,3402 @@
+[
+  {
+    "tournament": "Winter Showdown 2026",
+    "location": "Sydney",
+    "date": "2025-12-25",
+    "teams": [
+      {
+        "name": "Red Dragons",
+        "players": [
+          {
+            "id": "player001",
+            "name": "Player001",
+            "role": "tank",
+            "email": "player001@esports.com"
+          },
+          {
+            "id": "player002",
+            "name": "Player002",
+            "role": "sniper",
+            "email": "player002@gaming.net"
+          }
+        ],
+        "coach": {
+          "name": "Coach A",
+          "experience_years": 3
+        }
+      },
+      {
+        "name": "Blue Phoenix",
+        "players": [
+          {
+            "id": "player003",
+            "name": "Player003",
+            "role": "assault",
+            "email": "player003@proleague.org"
+          },
+          {
+            "id": "player004",
+            "name": "Player004",
+            "role": "sniper",
+            "email": "player004@gaming.net"
+          }
+        ],
+        "coach": {
+          "name": "Coach B",
+          "experience_years": 11
+        }
+      }
+    ],
+    "matches": [
+      {
+        "match_id": "match01",
+        "date": "2027-10-05T16:32:29Z",
+        "teams": [
+          "Red Dragons",
+          "Blue Phoenix"
+        ],
+        "scores": {
+          "Red Dragons": 20,
+          "Blue Phoenix": 17
+        },
+        "best_player": {
+          "id": "player002",
+          "name": "Player002",
+          "score": 34
+        }
+      }
+    ]
+  },
+  {
+    "tournament": "Autumn Arena 2026",
+    "location": "Seoul",
+    "date": "2025-02-16",
+    "teams": [
+      {
+        "name": "Red Dragons",
+        "players": [
+          {
+            "id": "player005",
+            "name": "Player005",
+            "role": "scout",
+            "email": "player005@gaming.net"
+          },
+          {
+            "id": "player006",
+            "name": "Player006",
+            "role": "tank",
+            "email": "player006@gaming.net"
+          }
+        ],
+        "coach": {
+          "name": "Coach A",
+          "experience_years": 12
+        }
+      },
+      {
+        "name": "Blue Phoenix",
+        "players": [
+          {
+            "id": "player007",
+            "name": "Player007",
+            "role": "support",
+            "email": "player007@esports.com"
+          },
+          {
+            "id": "player008",
+            "name": "Player008",
+            "role": "sniper",
+            "email": "player008@esports.com"
+          }
+        ],
+        "coach": {
+          "name": "Coach B",
+          "experience_years": 10
+        }
+      }
+    ],
+    "matches": [
+      {
+        "match_id": "match03",
+        "date": "2027-06-13T01:26:02Z",
+        "teams": [
+          "Red Dragons",
+          "Blue Phoenix"
+        ],
+        "scores": {
+          "Red Dragons": 11,
+          "Blue Phoenix": 10
+        },
+        "best_player": {
+          "id": "player007",
+          "name": "Player007",
+          "score": 30
+        }
+      }
+    ]
+  },
+  {
+    "tournament": "Summer Clash 2027",
+    "location": "Tokyo",
+    "date": "2025-05-08",
+    "teams": [
+      {
+        "name": "Red Dragons",
+        "players": [
+          {
+            "id": "player009",
+            "name": "Player009",
+            "role": "scout",
+            "email": "player009@gaming.net"
+          },
+          {
+            "id": "player010",
+            "name": "Player010",
+            "role": "support",
+            "email": "player010@proleague.org"
+          }
+        ],
+        "coach": {
+          "name": "Coach A",
+          "experience_years": 4
+        }
+      },
+      {
+        "name": "Blue Phoenix",
+        "players": [
+          {
+            "id": "player011",
+            "name": "Player011",
+            "role": "assault",
+            "email": "player011@proleague.org"
+          },
+          {
+            "id": "player012",
+            "name": "Player012",
+            "role": "tank",
+            "email": "player012@proleague.org"
+          }
+        ],
+        "coach": {
+          "name": "Coach B",
+          "experience_years": 10
+        }
+      }
+    ],
+    "matches": [
+      {
+        "match_id": "match05",
+        "date": "2025-08-20T06:35:12Z",
+        "teams": [
+          "Red Dragons",
+          "Blue Phoenix"
+        ],
+        "scores": {
+          "Red Dragons": 16,
+          "Blue Phoenix": 17
+        },
+        "best_player": {
+          "id": "player010",
+          "name": "Player010",
+          "score": 28
+        }
+      }
+    ]
+  },
+  {
+    "tournament": "Spring Invitational 2027",
+    "location": "Los Angeles",
+    "date": "2026-11-24",
+    "teams": [
+      {
+        "name": "Red Dragons",
+        "players": [
+          {
+            "id": "player013",
+            "name": "Player013",
+            "role": "assault",
+            "email": "player013@esports.com"
+          },
+          {
+            "id": "player014",
+            "name": "Player014",
+            "role": "sniper",
+            "email": "player014@esports.com"
+          }
+        ],
+        "coach": {
+          "name": "Coach A",
+          "experience_years": 10
+        }
+      },
+      {
+        "name": "Blue Phoenix",
+        "players": [
+          {
+            "id": "player015",
+            "name": "Player015",
+            "role": "scout",
+            "email": "player015@proleague.org"
+          },
+          {
+            "id": "player016",
+            "name": "Player016",
+            "role": "sniper",
+            "email": "player016@gaming.net"
+          }
+        ],
+        "coach": {
+          "name": "Coach B",
+          "experience_years": 5
+        }
+      }
+    ],
+    "matches": [
+      {
+        "match_id": "match07",
+        "date": "2026-06-15T01:16:06Z",
+        "teams": [
+          "Red Dragons",
+          "Blue Phoenix"
+        ],
+        "scores": {
+          "Red Dragons": 16,
+          "Blue Phoenix": 13
+        },
+        "best_player": {
+          "id": "player014",
+          "name": "Player014",
+          "score": 24
+        }
+      }
+    ]
+  },
+  {
+    "tournament": "Legends Finals 2026",
+    "location": "Berlin",
+    "date": "2026-04-01",
+    "teams": [
+      {
+        "name": "Red Dragons",
+        "players": [
+          {
+            "id": "player017",
+            "name": "Player017",
+            "role": "support",
+            "email": "player017@esports.com"
+          },
+          {
+            "id": "player018",
+            "name": "Player018",
+            "role": "support",
+            "email": "player018@proleague.org"
+          }
+        ],
+        "coach": {
+          "name": "Coach A",
+          "experience_years": 12
+        }
+      },
+      {
+        "name": "Blue Phoenix",
+        "players": [
+          {
+            "id": "player019",
+            "name": "Player019",
+            "role": "tank",
+            "email": "player019@esports.com"
+          },
+          {
+            "id": "player020",
+            "name": "Player020",
+            "role": "tank",
+            "email": "player020@proleague.org"
+          }
+        ],
+        "coach": {
+          "name": "Coach B",
+          "experience_years": 11
+        }
+      }
+    ],
+    "matches": [
+      {
+        "match_id": "match09",
+        "date": "2026-12-24T19:35:52Z",
+        "teams": [
+          "Red Dragons",
+          "Blue Phoenix"
+        ],
+        "scores": {
+          "Red Dragons": 20,
+          "Blue Phoenix": 11
+        },
+        "best_player": {
+          "id": "player020",
+          "name": "Player020",
+          "score": 25
+        }
+      }
+    ]
+  },
+  {
+    "tournament": "Champions Cup 2025",
+    "location": "Berlin",
+    "date": "2026-11-14",
+    "teams": [
+      {
+        "name": "Red Dragons",
+        "players": [
+          {
+            "id": "player021",
+            "name": "Player021",
+            "role": "assault",
+            "email": "player021@proleague.org"
+          },
+          {
+            "id": "player022",
+            "name": "Player022",
+            "role": "scout",
+            "email": "player022@esports.com"
+          }
+        ],
+        "coach": {
+          "name": "Coach A",
+          "experience_years": 6
+        }
+      },
+      {
+        "name": "Blue Phoenix",
+        "players": [
+          {
+            "id": "player023",
+            "name": "Player023",
+            "role": "assault",
+            "email": "player023@gaming.net"
+          },
+          {
+            "id": "player024",
+            "name": "Player024",
+            "role": "tank",
+            "email": "player024@esports.com"
+          }
+        ],
+        "coach": {
+          "name": "Coach B",
+          "experience_years": 6
+        }
+      }
+    ],
+    "matches": [
+      {
+        "match_id": "match11",
+        "date": "2027-05-10T08:40:46Z",
+        "teams": [
+          "Red Dragons",
+          "Blue Phoenix"
+        ],
+        "scores": {
+          "Red Dragons": 10,
+          "Blue Phoenix": 17
+        },
+        "best_player": {
+          "id": "player022",
+          "name": "Player022",
+          "score": 26
+        }
+      }
+    ]
+  },
+  {
+    "tournament": "Spring Invitational 2026",
+    "location": "Tokyo",
+    "date": "2025-06-07",
+    "teams": [
+      {
+        "name": "Red Dragons",
+        "players": [
+          {
+            "id": "player025",
+            "name": "Player025",
+            "role": "scout",
+            "email": "player025@gaming.net"
+          },
+          {
+            "id": "player026",
+            "name": "Player026",
+            "role": "assault",
+            "email": "player026@proleague.org"
+          }
+        ],
+        "coach": {
+          "name": "Coach A",
+          "experience_years": 6
+        }
+      },
+      {
+        "name": "Blue Phoenix",
+        "players": [
+          {
+            "id": "player027",
+            "name": "Player027",
+            "role": "tank",
+            "email": "player027@gaming.net"
+          },
+          {
+            "id": "player028",
+            "name": "Player028",
+            "role": "support",
+            "email": "player028@gaming.net"
+          }
+        ],
+        "coach": {
+          "name": "Coach B",
+          "experience_years": 9
+        }
+      }
+    ],
+    "matches": [
+      {
+        "match_id": "match13",
+        "date": "2026-04-17T20:57:04Z",
+        "teams": [
+          "Red Dragons",
+          "Blue Phoenix"
+        ],
+        "scores": {
+          "Red Dragons": 15,
+          "Blue Phoenix": 10
+        },
+        "best_player": {
+          "id": "player027",
+          "name": "Player027",
+          "score": 29
+        }
+      }
+    ]
+  },
+  {
+    "tournament": "Champions Cup 2025",
+    "location": "Shanghai",
+    "date": "2025-03-30",
+    "teams": [
+      {
+        "name": "Red Dragons",
+        "players": [
+          {
+            "id": "player029",
+            "name": "Player029",
+            "role": "support",
+            "email": "player029@gaming.net"
+          },
+          {
+            "id": "player030",
+            "name": "Player030",
+            "role": "tank",
+            "email": "player030@esports.com"
+          }
+        ],
+        "coach": {
+          "name": "Coach A",
+          "experience_years": 8
+        }
+      },
+      {
+        "name": "Blue Phoenix",
+        "players": [
+          {
+            "id": "player031",
+            "name": "Player031",
+            "role": "support",
+            "email": "player031@esports.com"
+          },
+          {
+            "id": "player032",
+            "name": "Player032",
+            "role": "sniper",
+            "email": "player032@esports.com"
+          }
+        ],
+        "coach": {
+          "name": "Coach B",
+          "experience_years": 4
+        }
+      }
+    ],
+    "matches": [
+      {
+        "match_id": "match15",
+        "date": "2025-07-19T12:02:31Z",
+        "teams": [
+          "Red Dragons",
+          "Blue Phoenix"
+        ],
+        "scores": {
+          "Red Dragons": 12,
+          "Blue Phoenix": 8
+        },
+        "best_player": {
+          "id": "player030",
+          "name": "Player030",
+          "score": 34
+        }
+      }
+    ]
+  },
+  {
+    "tournament": "Autumn Arena 2027",
+    "location": "Tokyo",
+    "date": "2026-05-20",
+    "teams": [
+      {
+        "name": "Red Dragons",
+        "players": [
+          {
+            "id": "player033",
+            "name": "Player033",
+            "role": "sniper",
+            "email": "player033@gaming.net"
+          },
+          {
+            "id": "player034",
+            "name": "Player034",
+            "role": "scout",
+            "email": "player034@proleague.org"
+          }
+        ],
+        "coach": {
+          "name": "Coach A",
+          "experience_years": 11
+        }
+      },
+      {
+        "name": "Blue Phoenix",
+        "players": [
+          {
+            "id": "player035",
+            "name": "Player035",
+            "role": "support",
+            "email": "player035@gaming.net"
+          },
+          {
+            "id": "player036",
+            "name": "Player036",
+            "role": "assault",
+            "email": "player036@gaming.net"
+          }
+        ],
+        "coach": {
+          "name": "Coach B",
+          "experience_years": 11
+        }
+      }
+    ],
+    "matches": [
+      {
+        "match_id": "match17",
+        "date": "2027-03-28T07:15:19Z",
+        "teams": [
+          "Red Dragons",
+          "Blue Phoenix"
+        ],
+        "scores": {
+          "Red Dragons": 10,
+          "Blue Phoenix": 19
+        },
+        "best_player": {
+          "id": "player034",
+          "name": "Player034",
+          "score": 25
+        }
+      }
+    ]
+  },
+  {
+    "tournament": "Summer Clash 2027",
+    "location": "New York",
+    "date": "2026-11-10",
+    "teams": [
+      {
+        "name": "Red Dragons",
+        "players": [
+          {
+            "id": "player037",
+            "name": "Player037",
+            "role": "support",
+            "email": "player037@gaming.net"
+          },
+          {
+            "id": "player038",
+            "name": "Player038",
+            "role": "sniper",
+            "email": "player038@esports.com"
+          }
+        ],
+        "coach": {
+          "name": "Coach A",
+          "experience_years": 3
+        }
+      },
+      {
+        "name": "Blue Phoenix",
+        "players": [
+          {
+            "id": "player039",
+            "name": "Player039",
+            "role": "assault",
+            "email": "player039@esports.com"
+          },
+          {
+            "id": "player040",
+            "name": "Player040",
+            "role": "support",
+            "email": "player040@proleague.org"
+          }
+        ],
+        "coach": {
+          "name": "Coach B",
+          "experience_years": 7
+        }
+      }
+    ],
+    "matches": [
+      {
+        "match_id": "match19",
+        "date": "2027-08-16T15:33:19Z",
+        "teams": [
+          "Red Dragons",
+          "Blue Phoenix"
+        ],
+        "scores": {
+          "Red Dragons": 17,
+          "Blue Phoenix": 15
+        },
+        "best_player": {
+          "id": "player039",
+          "name": "Player039",
+          "score": 33
+        }
+      }
+    ]
+  },
+  {
+    "tournament": "Spring Invitational 2026",
+    "location": "Sydney",
+    "date": "2027-11-16",
+    "teams": [
+      {
+        "name": "Red Dragons",
+        "players": [
+          {
+            "id": "player041",
+            "name": "Player041",
+            "role": "sniper",
+            "email": "player041@esports.com"
+          },
+          {
+            "id": "player042",
+            "name": "Player042",
+            "role": "sniper",
+            "email": "player042@esports.com"
+          }
+        ],
+        "coach": {
+          "name": "Coach A",
+          "experience_years": 5
+        }
+      },
+      {
+        "name": "Blue Phoenix",
+        "players": [
+          {
+            "id": "player043",
+            "name": "Player043",
+            "role": "tank",
+            "email": "player043@gaming.net"
+          },
+          {
+            "id": "player044",
+            "name": "Player044",
+            "role": "scout",
+            "email": "player044@gaming.net"
+          }
+        ],
+        "coach": {
+          "name": "Coach B",
+          "experience_years": 7
+        }
+      }
+    ],
+    "matches": [
+      {
+        "match_id": "match21",
+        "date": "2026-12-06T21:33:10Z",
+        "teams": [
+          "Red Dragons",
+          "Blue Phoenix"
+        ],
+        "scores": {
+          "Red Dragons": 13,
+          "Blue Phoenix": 19
+        },
+        "best_player": {
+          "id": "player043",
+          "name": "Player043",
+          "score": 31
+        }
+      }
+    ]
+  },
+  {
+    "tournament": "Summer Clash 2025",
+    "location": "London",
+    "date": "2025-01-31",
+    "teams": [
+      {
+        "name": "Red Dragons",
+        "players": [
+          {
+            "id": "player045",
+            "name": "Player045",
+            "role": "tank",
+            "email": "player045@esports.com"
+          },
+          {
+            "id": "player046",
+            "name": "Player046",
+            "role": "scout",
+            "email": "player046@gaming.net"
+          }
+        ],
+        "coach": {
+          "name": "Coach A",
+          "experience_years": 5
+        }
+      },
+      {
+        "name": "Blue Phoenix",
+        "players": [
+          {
+            "id": "player047",
+            "name": "Player047",
+            "role": "tank",
+            "email": "player047@proleague.org"
+          },
+          {
+            "id": "player048",
+            "name": "Player048",
+            "role": "support",
+            "email": "player048@proleague.org"
+          }
+        ],
+        "coach": {
+          "name": "Coach B",
+          "experience_years": 5
+        }
+      }
+    ],
+    "matches": [
+      {
+        "match_id": "match23",
+        "date": "2026-05-22T21:20:15Z",
+        "teams": [
+          "Red Dragons",
+          "Blue Phoenix"
+        ],
+        "scores": {
+          "Red Dragons": 9,
+          "Blue Phoenix": 16
+        },
+        "best_player": {
+          "id": "player048",
+          "name": "Player048",
+          "score": 33
+        }
+      }
+    ]
+  },
+  {
+    "tournament": "Spring Invitational 2025",
+    "location": "New York",
+    "date": "2026-12-06",
+    "teams": [
+      {
+        "name": "Red Dragons",
+        "players": [
+          {
+            "id": "player049",
+            "name": "Player049",
+            "role": "tank",
+            "email": "player049@gaming.net"
+          },
+          {
+            "id": "player050",
+            "name": "Player050",
+            "role": "tank",
+            "email": "player050@gaming.net"
+          }
+        ],
+        "coach": {
+          "name": "Coach A",
+          "experience_years": 5
+        }
+      },
+      {
+        "name": "Blue Phoenix",
+        "players": [
+          {
+            "id": "player051",
+            "name": "Player051",
+            "role": "sniper",
+            "email": "player051@esports.com"
+          },
+          {
+            "id": "player052",
+            "name": "Player052",
+            "role": "sniper",
+            "email": "player052@esports.com"
+          }
+        ],
+        "coach": {
+          "name": "Coach B",
+          "experience_years": 6
+        }
+      }
+    ],
+    "matches": [
+      {
+        "match_id": "match25",
+        "date": "2027-08-18T15:54:00Z",
+        "teams": [
+          "Red Dragons",
+          "Blue Phoenix"
+        ],
+        "scores": {
+          "Red Dragons": 13,
+          "Blue Phoenix": 15
+        },
+        "best_player": {
+          "id": "player052",
+          "name": "Player052",
+          "score": 25
+        }
+      }
+    ]
+  },
+  {
+    "tournament": "Winter Showdown 2025",
+    "location": "Tokyo",
+    "date": "2027-07-01",
+    "teams": [
+      {
+        "name": "Red Dragons",
+        "players": [
+          {
+            "id": "player053",
+            "name": "Player053",
+            "role": "sniper",
+            "email": "player053@proleague.org"
+          },
+          {
+            "id": "player054",
+            "name": "Player054",
+            "role": "sniper",
+            "email": "player054@proleague.org"
+          }
+        ],
+        "coach": {
+          "name": "Coach A",
+          "experience_years": 3
+        }
+      },
+      {
+        "name": "Blue Phoenix",
+        "players": [
+          {
+            "id": "player055",
+            "name": "Player055",
+            "role": "sniper",
+            "email": "player055@esports.com"
+          },
+          {
+            "id": "player056",
+            "name": "Player056",
+            "role": "sniper",
+            "email": "player056@gaming.net"
+          }
+        ],
+        "coach": {
+          "name": "Coach B",
+          "experience_years": 9
+        }
+      }
+    ],
+    "matches": [
+      {
+        "match_id": "match27",
+        "date": "2027-02-11T13:04:06Z",
+        "teams": [
+          "Red Dragons",
+          "Blue Phoenix"
+        ],
+        "scores": {
+          "Red Dragons": 19,
+          "Blue Phoenix": 14
+        },
+        "best_player": {
+          "id": "player055",
+          "name": "Player055",
+          "score": 21
+        }
+      }
+    ]
+  },
+  {
+    "tournament": "Summer Clash 2026",
+    "location": "London",
+    "date": "2026-11-30",
+    "teams": [
+      {
+        "name": "Red Dragons",
+        "players": [
+          {
+            "id": "player057",
+            "name": "Player057",
+            "role": "sniper",
+            "email": "player057@gaming.net"
+          },
+          {
+            "id": "player058",
+            "name": "Player058",
+            "role": "scout",
+            "email": "player058@gaming.net"
+          }
+        ],
+        "coach": {
+          "name": "Coach A",
+          "experience_years": 9
+        }
+      },
+      {
+        "name": "Blue Phoenix",
+        "players": [
+          {
+            "id": "player059",
+            "name": "Player059",
+            "role": "assault",
+            "email": "player059@proleague.org"
+          },
+          {
+            "id": "player060",
+            "name": "Player060",
+            "role": "assault",
+            "email": "player060@gaming.net"
+          }
+        ],
+        "coach": {
+          "name": "Coach B",
+          "experience_years": 5
+        }
+      }
+    ],
+    "matches": [
+      {
+        "match_id": "match29",
+        "date": "2025-03-09T11:56:20Z",
+        "teams": [
+          "Red Dragons",
+          "Blue Phoenix"
+        ],
+        "scores": {
+          "Red Dragons": 12,
+          "Blue Phoenix": 13
+        },
+        "best_player": {
+          "id": "player057",
+          "name": "Player057",
+          "score": 29
+        }
+      }
+    ]
+  },
+  {
+    "tournament": "Spring Invitational 2025",
+    "location": "New York",
+    "date": "2026-01-10",
+    "teams": [
+      {
+        "name": "Red Dragons",
+        "players": [
+          {
+            "id": "player061",
+            "name": "Player061",
+            "role": "assault",
+            "email": "player061@proleague.org"
+          },
+          {
+            "id": "player062",
+            "name": "Player062",
+            "role": "assault",
+            "email": "player062@esports.com"
+          }
+        ],
+        "coach": {
+          "name": "Coach A",
+          "experience_years": 8
+        }
+      },
+      {
+        "name": "Blue Phoenix",
+        "players": [
+          {
+            "id": "player063",
+            "name": "Player063",
+            "role": "scout",
+            "email": "player063@proleague.org"
+          },
+          {
+            "id": "player064",
+            "name": "Player064",
+            "role": "support",
+            "email": "player064@esports.com"
+          }
+        ],
+        "coach": {
+          "name": "Coach B",
+          "experience_years": 11
+        }
+      }
+    ],
+    "matches": [
+      {
+        "match_id": "match31",
+        "date": "2025-08-27T15:05:46Z",
+        "teams": [
+          "Red Dragons",
+          "Blue Phoenix"
+        ],
+        "scores": {
+          "Red Dragons": 12,
+          "Blue Phoenix": 18
+        },
+        "best_player": {
+          "id": "player063",
+          "name": "Player063",
+          "score": 29
+        }
+      }
+    ]
+  },
+  {
+    "tournament": "Champions Cup 2027",
+    "location": "London",
+    "date": "2027-11-29",
+    "teams": [
+      {
+        "name": "Red Dragons",
+        "players": [
+          {
+            "id": "player065",
+            "name": "Player065",
+            "role": "tank",
+            "email": "player065@esports.com"
+          },
+          {
+            "id": "player066",
+            "name": "Player066",
+            "role": "support",
+            "email": "player066@gaming.net"
+          }
+        ],
+        "coach": {
+          "name": "Coach A",
+          "experience_years": 7
+        }
+      },
+      {
+        "name": "Blue Phoenix",
+        "players": [
+          {
+            "id": "player067",
+            "name": "Player067",
+            "role": "support",
+            "email": "player067@gaming.net"
+          },
+          {
+            "id": "player068",
+            "name": "Player068",
+            "role": "assault",
+            "email": "player068@esports.com"
+          }
+        ],
+        "coach": {
+          "name": "Coach B",
+          "experience_years": 6
+        }
+      }
+    ],
+    "matches": [
+      {
+        "match_id": "match33",
+        "date": "2025-02-19T12:21:37Z",
+        "teams": [
+          "Red Dragons",
+          "Blue Phoenix"
+        ],
+        "scores": {
+          "Red Dragons": 12,
+          "Blue Phoenix": 10
+        },
+        "best_player": {
+          "id": "player068",
+          "name": "Player068",
+          "score": 29
+        }
+      }
+    ]
+  },
+  {
+    "tournament": "Champions Cup 2027",
+    "location": "New York",
+    "date": "2027-10-24",
+    "teams": [
+      {
+        "name": "Red Dragons",
+        "players": [
+          {
+            "id": "player069",
+            "name": "Player069",
+            "role": "assault",
+            "email": "player069@gaming.net"
+          },
+          {
+            "id": "player070",
+            "name": "Player070",
+            "role": "scout",
+            "email": "player070@gaming.net"
+          }
+        ],
+        "coach": {
+          "name": "Coach A",
+          "experience_years": 5
+        }
+      },
+      {
+        "name": "Blue Phoenix",
+        "players": [
+          {
+            "id": "player071",
+            "name": "Player071",
+            "role": "assault",
+            "email": "player071@proleague.org"
+          },
+          {
+            "id": "player072",
+            "name": "Player072",
+            "role": "tank",
+            "email": "player072@gaming.net"
+          }
+        ],
+        "coach": {
+          "name": "Coach B",
+          "experience_years": 5
+        }
+      }
+    ],
+    "matches": [
+      {
+        "match_id": "match35",
+        "date": "2026-10-05T03:24:58Z",
+        "teams": [
+          "Red Dragons",
+          "Blue Phoenix"
+        ],
+        "scores": {
+          "Red Dragons": 11,
+          "Blue Phoenix": 17
+        },
+        "best_player": {
+          "id": "player071",
+          "name": "Player071",
+          "score": 34
+        }
+      }
+    ]
+  },
+  {
+    "tournament": "Champions Cup 2026",
+    "location": "Paris",
+    "date": "2026-02-20",
+    "teams": [
+      {
+        "name": "Red Dragons",
+        "players": [
+          {
+            "id": "player073",
+            "name": "Player073",
+            "role": "sniper",
+            "email": "player073@gaming.net"
+          },
+          {
+            "id": "player074",
+            "name": "Player074",
+            "role": "tank",
+            "email": "player074@proleague.org"
+          }
+        ],
+        "coach": {
+          "name": "Coach A",
+          "experience_years": 7
+        }
+      },
+      {
+        "name": "Blue Phoenix",
+        "players": [
+          {
+            "id": "player075",
+            "name": "Player075",
+            "role": "assault",
+            "email": "player075@esports.com"
+          },
+          {
+            "id": "player076",
+            "name": "Player076",
+            "role": "sniper",
+            "email": "player076@proleague.org"
+          }
+        ],
+        "coach": {
+          "name": "Coach B",
+          "experience_years": 9
+        }
+      }
+    ],
+    "matches": [
+      {
+        "match_id": "match37",
+        "date": "2026-01-07T09:50:31Z",
+        "teams": [
+          "Red Dragons",
+          "Blue Phoenix"
+        ],
+        "scores": {
+          "Red Dragons": 12,
+          "Blue Phoenix": 11
+        },
+        "best_player": {
+          "id": "player076",
+          "name": "Player076",
+          "score": 24
+        }
+      }
+    ]
+  },
+  {
+    "tournament": "Spring Invitational 2026",
+    "location": "Tokyo",
+    "date": "2027-11-26",
+    "teams": [
+      {
+        "name": "Red Dragons",
+        "players": [
+          {
+            "id": "player077",
+            "name": "Player077",
+            "role": "assault",
+            "email": "player077@esports.com"
+          },
+          {
+            "id": "player078",
+            "name": "Player078",
+            "role": "tank",
+            "email": "player078@proleague.org"
+          }
+        ],
+        "coach": {
+          "name": "Coach A",
+          "experience_years": 7
+        }
+      },
+      {
+        "name": "Blue Phoenix",
+        "players": [
+          {
+            "id": "player079",
+            "name": "Player079",
+            "role": "support",
+            "email": "player079@gaming.net"
+          },
+          {
+            "id": "player080",
+            "name": "Player080",
+            "role": "assault",
+            "email": "player080@esports.com"
+          }
+        ],
+        "coach": {
+          "name": "Coach B",
+          "experience_years": 8
+        }
+      }
+    ],
+    "matches": [
+      {
+        "match_id": "match39",
+        "date": "2027-10-15T23:18:40Z",
+        "teams": [
+          "Red Dragons",
+          "Blue Phoenix"
+        ],
+        "scores": {
+          "Red Dragons": 13,
+          "Blue Phoenix": 13
+        },
+        "best_player": {
+          "id": "player080",
+          "name": "Player080",
+          "score": 22
+        }
+      }
+    ]
+  },
+  {
+    "tournament": "Champions Cup 2025",
+    "location": "Berlin",
+    "date": "2026-02-03",
+    "teams": [
+      {
+        "name": "Red Dragons",
+        "players": [
+          {
+            "id": "player081",
+            "name": "Player081",
+            "role": "scout",
+            "email": "player081@gaming.net"
+          },
+          {
+            "id": "player082",
+            "name": "Player082",
+            "role": "support",
+            "email": "player082@esports.com"
+          }
+        ],
+        "coach": {
+          "name": "Coach A",
+          "experience_years": 8
+        }
+      },
+      {
+        "name": "Blue Phoenix",
+        "players": [
+          {
+            "id": "player083",
+            "name": "Player083",
+            "role": "tank",
+            "email": "player083@gaming.net"
+          },
+          {
+            "id": "player084",
+            "name": "Player084",
+            "role": "assault",
+            "email": "player084@proleague.org"
+          }
+        ],
+        "coach": {
+          "name": "Coach B",
+          "experience_years": 5
+        }
+      }
+    ],
+    "matches": [
+      {
+        "match_id": "match41",
+        "date": "2026-11-06T13:40:38Z",
+        "teams": [
+          "Red Dragons",
+          "Blue Phoenix"
+        ],
+        "scores": {
+          "Red Dragons": 9,
+          "Blue Phoenix": 8
+        },
+        "best_player": {
+          "id": "player083",
+          "name": "Player083",
+          "score": 34
+        }
+      }
+    ]
+  },
+  {
+    "tournament": "Winter Showdown 2026",
+    "location": "Berlin",
+    "date": "2026-11-07",
+    "teams": [
+      {
+        "name": "Red Dragons",
+        "players": [
+          {
+            "id": "player085",
+            "name": "Player085",
+            "role": "assault",
+            "email": "player085@proleague.org"
+          },
+          {
+            "id": "player086",
+            "name": "Player086",
+            "role": "sniper",
+            "email": "player086@proleague.org"
+          }
+        ],
+        "coach": {
+          "name": "Coach A",
+          "experience_years": 6
+        }
+      },
+      {
+        "name": "Blue Phoenix",
+        "players": [
+          {
+            "id": "player087",
+            "name": "Player087",
+            "role": "support",
+            "email": "player087@esports.com"
+          },
+          {
+            "id": "player088",
+            "name": "Player088",
+            "role": "sniper",
+            "email": "player088@gaming.net"
+          }
+        ],
+        "coach": {
+          "name": "Coach B",
+          "experience_years": 10
+        }
+      }
+    ],
+    "matches": [
+      {
+        "match_id": "match43",
+        "date": "2027-03-16T14:32:17Z",
+        "teams": [
+          "Red Dragons",
+          "Blue Phoenix"
+        ],
+        "scores": {
+          "Red Dragons": 14,
+          "Blue Phoenix": 8
+        },
+        "best_player": {
+          "id": "player085",
+          "name": "Player085",
+          "score": 20
+        }
+      }
+    ]
+  },
+  {
+    "tournament": "Winter Showdown 2026",
+    "location": "Los Angeles",
+    "date": "2025-05-03",
+    "teams": [
+      {
+        "name": "Red Dragons",
+        "players": [
+          {
+            "id": "player089",
+            "name": "Player089",
+            "role": "assault",
+            "email": "player089@esports.com"
+          },
+          {
+            "id": "player090",
+            "name": "Player090",
+            "role": "scout",
+            "email": "player090@esports.com"
+          }
+        ],
+        "coach": {
+          "name": "Coach A",
+          "experience_years": 5
+        }
+      },
+      {
+        "name": "Blue Phoenix",
+        "players": [
+          {
+            "id": "player091",
+            "name": "Player091",
+            "role": "sniper",
+            "email": "player091@gaming.net"
+          },
+          {
+            "id": "player092",
+            "name": "Player092",
+            "role": "support",
+            "email": "player092@gaming.net"
+          }
+        ],
+        "coach": {
+          "name": "Coach B",
+          "experience_years": 6
+        }
+      }
+    ],
+    "matches": [
+      {
+        "match_id": "match45",
+        "date": "2027-04-03T07:34:31Z",
+        "teams": [
+          "Red Dragons",
+          "Blue Phoenix"
+        ],
+        "scores": {
+          "Red Dragons": 11,
+          "Blue Phoenix": 12
+        },
+        "best_player": {
+          "id": "player089",
+          "name": "Player089",
+          "score": 35
+        }
+      }
+    ]
+  },
+  {
+    "tournament": "Spring Invitational 2026",
+    "location": "Toronto",
+    "date": "2027-09-22",
+    "teams": [
+      {
+        "name": "Red Dragons",
+        "players": [
+          {
+            "id": "player093",
+            "name": "Player093",
+            "role": "sniper",
+            "email": "player093@gaming.net"
+          },
+          {
+            "id": "player094",
+            "name": "Player094",
+            "role": "sniper",
+            "email": "player094@proleague.org"
+          }
+        ],
+        "coach": {
+          "name": "Coach A",
+          "experience_years": 6
+        }
+      },
+      {
+        "name": "Blue Phoenix",
+        "players": [
+          {
+            "id": "player095",
+            "name": "Player095",
+            "role": "scout",
+            "email": "player095@esports.com"
+          },
+          {
+            "id": "player096",
+            "name": "Player096",
+            "role": "sniper",
+            "email": "player096@gaming.net"
+          }
+        ],
+        "coach": {
+          "name": "Coach B",
+          "experience_years": 8
+        }
+      }
+    ],
+    "matches": [
+      {
+        "match_id": "match47",
+        "date": "2027-07-15T19:08:11Z",
+        "teams": [
+          "Red Dragons",
+          "Blue Phoenix"
+        ],
+        "scores": {
+          "Red Dragons": 14,
+          "Blue Phoenix": 19
+        },
+        "best_player": {
+          "id": "player096",
+          "name": "Player096",
+          "score": 25
+        }
+      }
+    ]
+  },
+  {
+    "tournament": "Spring Invitational 2027",
+    "location": "Berlin",
+    "date": "2027-06-16",
+    "teams": [
+      {
+        "name": "Red Dragons",
+        "players": [
+          {
+            "id": "player097",
+            "name": "Player097",
+            "role": "sniper",
+            "email": "player097@esports.com"
+          },
+          {
+            "id": "player098",
+            "name": "Player098",
+            "role": "sniper",
+            "email": "player098@proleague.org"
+          }
+        ],
+        "coach": {
+          "name": "Coach A",
+          "experience_years": 5
+        }
+      },
+      {
+        "name": "Blue Phoenix",
+        "players": [
+          {
+            "id": "player099",
+            "name": "Player099",
+            "role": "scout",
+            "email": "player099@proleague.org"
+          },
+          {
+            "id": "player100",
+            "name": "Player100",
+            "role": "scout",
+            "email": "player100@gaming.net"
+          }
+        ],
+        "coach": {
+          "name": "Coach B",
+          "experience_years": 12
+        }
+      }
+    ],
+    "matches": [
+      {
+        "match_id": "match49",
+        "date": "2025-05-13T12:16:20Z",
+        "teams": [
+          "Red Dragons",
+          "Blue Phoenix"
+        ],
+        "scores": {
+          "Red Dragons": 10,
+          "Blue Phoenix": 9
+        },
+        "best_player": {
+          "id": "player099",
+          "name": "Player099",
+          "score": 35
+        }
+      }
+    ]
+  },
+  {
+    "tournament": "Autumn Arena 2027",
+    "location": "Berlin",
+    "date": "2025-02-02",
+    "teams": [
+      {
+        "name": "Red Dragons",
+        "players": [
+          {
+            "id": "player101",
+            "name": "Player101",
+            "role": "assault",
+            "email": "player101@gaming.net"
+          },
+          {
+            "id": "player102",
+            "name": "Player102",
+            "role": "sniper",
+            "email": "player102@gaming.net"
+          }
+        ],
+        "coach": {
+          "name": "Coach A",
+          "experience_years": 10
+        }
+      },
+      {
+        "name": "Blue Phoenix",
+        "players": [
+          {
+            "id": "player103",
+            "name": "Player103",
+            "role": "assault",
+            "email": "player103@esports.com"
+          },
+          {
+            "id": "player104",
+            "name": "Player104",
+            "role": "scout",
+            "email": "player104@gaming.net"
+          }
+        ],
+        "coach": {
+          "name": "Coach B",
+          "experience_years": 11
+        }
+      }
+    ],
+    "matches": [
+      {
+        "match_id": "match51",
+        "date": "2026-06-06T02:59:20Z",
+        "teams": [
+          "Red Dragons",
+          "Blue Phoenix"
+        ],
+        "scores": {
+          "Red Dragons": 19,
+          "Blue Phoenix": 18
+        },
+        "best_player": {
+          "id": "player104",
+          "name": "Player104",
+          "score": 21
+        }
+      }
+    ]
+  },
+  {
+    "tournament": "Champions Cup 2027",
+    "location": "London",
+    "date": "2025-06-19",
+    "teams": [
+      {
+        "name": "Red Dragons",
+        "players": [
+          {
+            "id": "player105",
+            "name": "Player105",
+            "role": "sniper",
+            "email": "player105@gaming.net"
+          },
+          {
+            "id": "player106",
+            "name": "Player106",
+            "role": "tank",
+            "email": "player106@gaming.net"
+          }
+        ],
+        "coach": {
+          "name": "Coach A",
+          "experience_years": 7
+        }
+      },
+      {
+        "name": "Blue Phoenix",
+        "players": [
+          {
+            "id": "player107",
+            "name": "Player107",
+            "role": "scout",
+            "email": "player107@proleague.org"
+          },
+          {
+            "id": "player108",
+            "name": "Player108",
+            "role": "assault",
+            "email": "player108@proleague.org"
+          }
+        ],
+        "coach": {
+          "name": "Coach B",
+          "experience_years": 8
+        }
+      }
+    ],
+    "matches": [
+      {
+        "match_id": "match53",
+        "date": "2027-04-30T23:50:15Z",
+        "teams": [
+          "Red Dragons",
+          "Blue Phoenix"
+        ],
+        "scores": {
+          "Red Dragons": 20,
+          "Blue Phoenix": 10
+        },
+        "best_player": {
+          "id": "player108",
+          "name": "Player108",
+          "score": 26
+        }
+      }
+    ]
+  },
+  {
+    "tournament": "Legends Finals 2026",
+    "location": "Sydney",
+    "date": "2025-09-27",
+    "teams": [
+      {
+        "name": "Red Dragons",
+        "players": [
+          {
+            "id": "player109",
+            "name": "Player109",
+            "role": "sniper",
+            "email": "player109@proleague.org"
+          },
+          {
+            "id": "player110",
+            "name": "Player110",
+            "role": "tank",
+            "email": "player110@gaming.net"
+          }
+        ],
+        "coach": {
+          "name": "Coach A",
+          "experience_years": 12
+        }
+      },
+      {
+        "name": "Blue Phoenix",
+        "players": [
+          {
+            "id": "player111",
+            "name": "Player111",
+            "role": "tank",
+            "email": "player111@esports.com"
+          },
+          {
+            "id": "player112",
+            "name": "Player112",
+            "role": "tank",
+            "email": "player112@proleague.org"
+          }
+        ],
+        "coach": {
+          "name": "Coach B",
+          "experience_years": 7
+        }
+      }
+    ],
+    "matches": [
+      {
+        "match_id": "match55",
+        "date": "2026-05-29T12:45:49Z",
+        "teams": [
+          "Red Dragons",
+          "Blue Phoenix"
+        ],
+        "scores": {
+          "Red Dragons": 8,
+          "Blue Phoenix": 14
+        },
+        "best_player": {
+          "id": "player111",
+          "name": "Player111",
+          "score": 33
+        }
+      }
+    ]
+  },
+  {
+    "tournament": "Autumn Arena 2025",
+    "location": "New York",
+    "date": "2025-03-29",
+    "teams": [
+      {
+        "name": "Red Dragons",
+        "players": [
+          {
+            "id": "player113",
+            "name": "Player113",
+            "role": "support",
+            "email": "player113@esports.com"
+          },
+          {
+            "id": "player114",
+            "name": "Player114",
+            "role": "scout",
+            "email": "player114@gaming.net"
+          }
+        ],
+        "coach": {
+          "name": "Coach A",
+          "experience_years": 8
+        }
+      },
+      {
+        "name": "Blue Phoenix",
+        "players": [
+          {
+            "id": "player115",
+            "name": "Player115",
+            "role": "assault",
+            "email": "player115@gaming.net"
+          },
+          {
+            "id": "player116",
+            "name": "Player116",
+            "role": "tank",
+            "email": "player116@gaming.net"
+          }
+        ],
+        "coach": {
+          "name": "Coach B",
+          "experience_years": 10
+        }
+      }
+    ],
+    "matches": [
+      {
+        "match_id": "match57",
+        "date": "2026-10-25T21:35:34Z",
+        "teams": [
+          "Red Dragons",
+          "Blue Phoenix"
+        ],
+        "scores": {
+          "Red Dragons": 18,
+          "Blue Phoenix": 11
+        },
+        "best_player": {
+          "id": "player114",
+          "name": "Player114",
+          "score": 31
+        }
+      }
+    ]
+  },
+  {
+    "tournament": "Spring Invitational 2027",
+    "location": "Los Angeles",
+    "date": "2025-08-21",
+    "teams": [
+      {
+        "name": "Red Dragons",
+        "players": [
+          {
+            "id": "player117",
+            "name": "Player117",
+            "role": "scout",
+            "email": "player117@proleague.org"
+          },
+          {
+            "id": "player118",
+            "name": "Player118",
+            "role": "support",
+            "email": "player118@gaming.net"
+          }
+        ],
+        "coach": {
+          "name": "Coach A",
+          "experience_years": 10
+        }
+      },
+      {
+        "name": "Blue Phoenix",
+        "players": [
+          {
+            "id": "player119",
+            "name": "Player119",
+            "role": "scout",
+            "email": "player119@esports.com"
+          },
+          {
+            "id": "player120",
+            "name": "Player120",
+            "role": "support",
+            "email": "player120@proleague.org"
+          }
+        ],
+        "coach": {
+          "name": "Coach B",
+          "experience_years": 5
+        }
+      }
+    ],
+    "matches": [
+      {
+        "match_id": "match59",
+        "date": "2027-08-19T17:58:13Z",
+        "teams": [
+          "Red Dragons",
+          "Blue Phoenix"
+        ],
+        "scores": {
+          "Red Dragons": 11,
+          "Blue Phoenix": 13
+        },
+        "best_player": {
+          "id": "player118",
+          "name": "Player118",
+          "score": 30
+        }
+      }
+    ]
+  },
+  {
+    "tournament": "Spring Invitational 2025",
+    "location": "Toronto",
+    "date": "2025-04-28",
+    "teams": [
+      {
+        "name": "Red Dragons",
+        "players": [
+          {
+            "id": "player121",
+            "name": "Player121",
+            "role": "assault",
+            "email": "player121@gaming.net"
+          },
+          {
+            "id": "player122",
+            "name": "Player122",
+            "role": "tank",
+            "email": "player122@esports.com"
+          }
+        ],
+        "coach": {
+          "name": "Coach A",
+          "experience_years": 3
+        }
+      },
+      {
+        "name": "Blue Phoenix",
+        "players": [
+          {
+            "id": "player123",
+            "name": "Player123",
+            "role": "sniper",
+            "email": "player123@proleague.org"
+          },
+          {
+            "id": "player124",
+            "name": "Player124",
+            "role": "scout",
+            "email": "player124@gaming.net"
+          }
+        ],
+        "coach": {
+          "name": "Coach B",
+          "experience_years": 7
+        }
+      }
+    ],
+    "matches": [
+      {
+        "match_id": "match61",
+        "date": "2026-08-19T17:27:14Z",
+        "teams": [
+          "Red Dragons",
+          "Blue Phoenix"
+        ],
+        "scores": {
+          "Red Dragons": 8,
+          "Blue Phoenix": 16
+        },
+        "best_player": {
+          "id": "player124",
+          "name": "Player124",
+          "score": 23
+        }
+      }
+    ]
+  },
+  {
+    "tournament": "Champions Cup 2026",
+    "location": "Tokyo",
+    "date": "2025-09-02",
+    "teams": [
+      {
+        "name": "Red Dragons",
+        "players": [
+          {
+            "id": "player125",
+            "name": "Player125",
+            "role": "scout",
+            "email": "player125@proleague.org"
+          },
+          {
+            "id": "player126",
+            "name": "Player126",
+            "role": "assault",
+            "email": "player126@gaming.net"
+          }
+        ],
+        "coach": {
+          "name": "Coach A",
+          "experience_years": 10
+        }
+      },
+      {
+        "name": "Blue Phoenix",
+        "players": [
+          {
+            "id": "player127",
+            "name": "Player127",
+            "role": "sniper",
+            "email": "player127@esports.com"
+          },
+          {
+            "id": "player128",
+            "name": "Player128",
+            "role": "sniper",
+            "email": "player128@esports.com"
+          }
+        ],
+        "coach": {
+          "name": "Coach B",
+          "experience_years": 4
+        }
+      }
+    ],
+    "matches": [
+      {
+        "match_id": "match63",
+        "date": "2027-02-26T21:00:25Z",
+        "teams": [
+          "Red Dragons",
+          "Blue Phoenix"
+        ],
+        "scores": {
+          "Red Dragons": 15,
+          "Blue Phoenix": 16
+        },
+        "best_player": {
+          "id": "player125",
+          "name": "Player125",
+          "score": 31
+        }
+      }
+    ]
+  },
+  {
+    "tournament": "Autumn Arena 2025",
+    "location": "Sydney",
+    "date": "2026-02-26",
+    "teams": [
+      {
+        "name": "Red Dragons",
+        "players": [
+          {
+            "id": "player129",
+            "name": "Player129",
+            "role": "assault",
+            "email": "player129@esports.com"
+          },
+          {
+            "id": "player130",
+            "name": "Player130",
+            "role": "sniper",
+            "email": "player130@gaming.net"
+          }
+        ],
+        "coach": {
+          "name": "Coach A",
+          "experience_years": 5
+        }
+      },
+      {
+        "name": "Blue Phoenix",
+        "players": [
+          {
+            "id": "player131",
+            "name": "Player131",
+            "role": "sniper",
+            "email": "player131@esports.com"
+          },
+          {
+            "id": "player132",
+            "name": "Player132",
+            "role": "tank",
+            "email": "player132@proleague.org"
+          }
+        ],
+        "coach": {
+          "name": "Coach B",
+          "experience_years": 10
+        }
+      }
+    ],
+    "matches": [
+      {
+        "match_id": "match65",
+        "date": "2026-06-14T23:04:48Z",
+        "teams": [
+          "Red Dragons",
+          "Blue Phoenix"
+        ],
+        "scores": {
+          "Red Dragons": 9,
+          "Blue Phoenix": 9
+        },
+        "best_player": {
+          "id": "player129",
+          "name": "Player129",
+          "score": 35
+        }
+      }
+    ]
+  },
+  {
+    "tournament": "Spring Invitational 2027",
+    "location": "New York",
+    "date": "2025-07-07",
+    "teams": [
+      {
+        "name": "Red Dragons",
+        "players": [
+          {
+            "id": "player133",
+            "name": "Player133",
+            "role": "scout",
+            "email": "player133@gaming.net"
+          },
+          {
+            "id": "player134",
+            "name": "Player134",
+            "role": "scout",
+            "email": "player134@esports.com"
+          }
+        ],
+        "coach": {
+          "name": "Coach A",
+          "experience_years": 8
+        }
+      },
+      {
+        "name": "Blue Phoenix",
+        "players": [
+          {
+            "id": "player135",
+            "name": "Player135",
+            "role": "sniper",
+            "email": "player135@esports.com"
+          },
+          {
+            "id": "player136",
+            "name": "Player136",
+            "role": "sniper",
+            "email": "player136@proleague.org"
+          }
+        ],
+        "coach": {
+          "name": "Coach B",
+          "experience_years": 3
+        }
+      }
+    ],
+    "matches": [
+      {
+        "match_id": "match67",
+        "date": "2027-08-21T12:49:08Z",
+        "teams": [
+          "Red Dragons",
+          "Blue Phoenix"
+        ],
+        "scores": {
+          "Red Dragons": 16,
+          "Blue Phoenix": 18
+        },
+        "best_player": {
+          "id": "player134",
+          "name": "Player134",
+          "score": 34
+        }
+      }
+    ]
+  },
+  {
+    "tournament": "Spring Invitational 2025",
+    "location": "Seoul",
+    "date": "2026-09-02",
+    "teams": [
+      {
+        "name": "Red Dragons",
+        "players": [
+          {
+            "id": "player137",
+            "name": "Player137",
+            "role": "support",
+            "email": "player137@esports.com"
+          },
+          {
+            "id": "player138",
+            "name": "Player138",
+            "role": "assault",
+            "email": "player138@gaming.net"
+          }
+        ],
+        "coach": {
+          "name": "Coach A",
+          "experience_years": 7
+        }
+      },
+      {
+        "name": "Blue Phoenix",
+        "players": [
+          {
+            "id": "player139",
+            "name": "Player139",
+            "role": "sniper",
+            "email": "player139@esports.com"
+          },
+          {
+            "id": "player140",
+            "name": "Player140",
+            "role": "sniper",
+            "email": "player140@proleague.org"
+          }
+        ],
+        "coach": {
+          "name": "Coach B",
+          "experience_years": 10
+        }
+      }
+    ],
+    "matches": [
+      {
+        "match_id": "match69",
+        "date": "2027-11-19T15:39:44Z",
+        "teams": [
+          "Red Dragons",
+          "Blue Phoenix"
+        ],
+        "scores": {
+          "Red Dragons": 14,
+          "Blue Phoenix": 17
+        },
+        "best_player": {
+          "id": "player138",
+          "name": "Player138",
+          "score": 24
+        }
+      }
+    ]
+  },
+  {
+    "tournament": "Spring Invitational 2026",
+    "location": "Los Angeles",
+    "date": "2026-01-17",
+    "teams": [
+      {
+        "name": "Red Dragons",
+        "players": [
+          {
+            "id": "player141",
+            "name": "Player141",
+            "role": "tank",
+            "email": "player141@gaming.net"
+          },
+          {
+            "id": "player142",
+            "name": "Player142",
+            "role": "sniper",
+            "email": "player142@esports.com"
+          }
+        ],
+        "coach": {
+          "name": "Coach A",
+          "experience_years": 5
+        }
+      },
+      {
+        "name": "Blue Phoenix",
+        "players": [
+          {
+            "id": "player143",
+            "name": "Player143",
+            "role": "support",
+            "email": "player143@proleague.org"
+          },
+          {
+            "id": "player144",
+            "name": "Player144",
+            "role": "tank",
+            "email": "player144@gaming.net"
+          }
+        ],
+        "coach": {
+          "name": "Coach B",
+          "experience_years": 4
+        }
+      }
+    ],
+    "matches": [
+      {
+        "match_id": "match71",
+        "date": "2026-04-09T14:41:18Z",
+        "teams": [
+          "Red Dragons",
+          "Blue Phoenix"
+        ],
+        "scores": {
+          "Red Dragons": 18,
+          "Blue Phoenix": 12
+        },
+        "best_player": {
+          "id": "player143",
+          "name": "Player143",
+          "score": 28
+        }
+      }
+    ]
+  },
+  {
+    "tournament": "Legends Finals 2025",
+    "location": "Shanghai",
+    "date": "2026-06-10",
+    "teams": [
+      {
+        "name": "Red Dragons",
+        "players": [
+          {
+            "id": "player145",
+            "name": "Player145",
+            "role": "assault",
+            "email": "player145@gaming.net"
+          },
+          {
+            "id": "player146",
+            "name": "Player146",
+            "role": "scout",
+            "email": "player146@esports.com"
+          }
+        ],
+        "coach": {
+          "name": "Coach A",
+          "experience_years": 4
+        }
+      },
+      {
+        "name": "Blue Phoenix",
+        "players": [
+          {
+            "id": "player147",
+            "name": "Player147",
+            "role": "sniper",
+            "email": "player147@gaming.net"
+          },
+          {
+            "id": "player148",
+            "name": "Player148",
+            "role": "scout",
+            "email": "player148@proleague.org"
+          }
+        ],
+        "coach": {
+          "name": "Coach B",
+          "experience_years": 5
+        }
+      }
+    ],
+    "matches": [
+      {
+        "match_id": "match73",
+        "date": "2027-02-08T14:27:10Z",
+        "teams": [
+          "Red Dragons",
+          "Blue Phoenix"
+        ],
+        "scores": {
+          "Red Dragons": 12,
+          "Blue Phoenix": 14
+        },
+        "best_player": {
+          "id": "player147",
+          "name": "Player147",
+          "score": 32
+        }
+      }
+    ]
+  },
+  {
+    "tournament": "Summer Clash 2026",
+    "location": "Berlin",
+    "date": "2025-07-08",
+    "teams": [
+      {
+        "name": "Red Dragons",
+        "players": [
+          {
+            "id": "player149",
+            "name": "Player149",
+            "role": "scout",
+            "email": "player149@gaming.net"
+          },
+          {
+            "id": "player150",
+            "name": "Player150",
+            "role": "assault",
+            "email": "player150@esports.com"
+          }
+        ],
+        "coach": {
+          "name": "Coach A",
+          "experience_years": 7
+        }
+      },
+      {
+        "name": "Blue Phoenix",
+        "players": [
+          {
+            "id": "player151",
+            "name": "Player151",
+            "role": "sniper",
+            "email": "player151@gaming.net"
+          },
+          {
+            "id": "player152",
+            "name": "Player152",
+            "role": "sniper",
+            "email": "player152@esports.com"
+          }
+        ],
+        "coach": {
+          "name": "Coach B",
+          "experience_years": 4
+        }
+      }
+    ],
+    "matches": [
+      {
+        "match_id": "match75",
+        "date": "2027-06-24T04:50:16Z",
+        "teams": [
+          "Red Dragons",
+          "Blue Phoenix"
+        ],
+        "scores": {
+          "Red Dragons": 12,
+          "Blue Phoenix": 9
+        },
+        "best_player": {
+          "id": "player149",
+          "name": "Player149",
+          "score": 34
+        }
+      }
+    ]
+  },
+  {
+    "tournament": "Legends Finals 2026",
+    "location": "Toronto",
+    "date": "2025-05-05",
+    "teams": [
+      {
+        "name": "Red Dragons",
+        "players": [
+          {
+            "id": "player153",
+            "name": "Player153",
+            "role": "tank",
+            "email": "player153@gaming.net"
+          },
+          {
+            "id": "player154",
+            "name": "Player154",
+            "role": "sniper",
+            "email": "player154@proleague.org"
+          }
+        ],
+        "coach": {
+          "name": "Coach A",
+          "experience_years": 3
+        }
+      },
+      {
+        "name": "Blue Phoenix",
+        "players": [
+          {
+            "id": "player155",
+            "name": "Player155",
+            "role": "tank",
+            "email": "player155@proleague.org"
+          },
+          {
+            "id": "player156",
+            "name": "Player156",
+            "role": "support",
+            "email": "player156@esports.com"
+          }
+        ],
+        "coach": {
+          "name": "Coach B",
+          "experience_years": 6
+        }
+      }
+    ],
+    "matches": [
+      {
+        "match_id": "match77",
+        "date": "2027-09-22T18:33:36Z",
+        "teams": [
+          "Red Dragons",
+          "Blue Phoenix"
+        ],
+        "scores": {
+          "Red Dragons": 10,
+          "Blue Phoenix": 19
+        },
+        "best_player": {
+          "id": "player153",
+          "name": "Player153",
+          "score": 22
+        }
+      }
+    ]
+  },
+  {
+    "tournament": "Legends Finals 2025",
+    "location": "Seoul",
+    "date": "2026-05-19",
+    "teams": [
+      {
+        "name": "Red Dragons",
+        "players": [
+          {
+            "id": "player157",
+            "name": "Player157",
+            "role": "assault",
+            "email": "player157@esports.com"
+          },
+          {
+            "id": "player158",
+            "name": "Player158",
+            "role": "sniper",
+            "email": "player158@proleague.org"
+          }
+        ],
+        "coach": {
+          "name": "Coach A",
+          "experience_years": 3
+        }
+      },
+      {
+        "name": "Blue Phoenix",
+        "players": [
+          {
+            "id": "player159",
+            "name": "Player159",
+            "role": "sniper",
+            "email": "player159@esports.com"
+          },
+          {
+            "id": "player160",
+            "name": "Player160",
+            "role": "sniper",
+            "email": "player160@esports.com"
+          }
+        ],
+        "coach": {
+          "name": "Coach B",
+          "experience_years": 6
+        }
+      }
+    ],
+    "matches": [
+      {
+        "match_id": "match79",
+        "date": "2026-02-03T00:59:59Z",
+        "teams": [
+          "Red Dragons",
+          "Blue Phoenix"
+        ],
+        "scores": {
+          "Red Dragons": 18,
+          "Blue Phoenix": 9
+        },
+        "best_player": {
+          "id": "player158",
+          "name": "Player158",
+          "score": 21
+        }
+      }
+    ]
+  },
+  {
+    "tournament": "Champions Cup 2025",
+    "location": "Los Angeles",
+    "date": "2025-03-11",
+    "teams": [
+      {
+        "name": "Red Dragons",
+        "players": [
+          {
+            "id": "player161",
+            "name": "Player161",
+            "role": "support",
+            "email": "player161@proleague.org"
+          },
+          {
+            "id": "player162",
+            "name": "Player162",
+            "role": "tank",
+            "email": "player162@proleague.org"
+          }
+        ],
+        "coach": {
+          "name": "Coach A",
+          "experience_years": 3
+        }
+      },
+      {
+        "name": "Blue Phoenix",
+        "players": [
+          {
+            "id": "player163",
+            "name": "Player163",
+            "role": "tank",
+            "email": "player163@esports.com"
+          },
+          {
+            "id": "player164",
+            "name": "Player164",
+            "role": "support",
+            "email": "player164@gaming.net"
+          }
+        ],
+        "coach": {
+          "name": "Coach B",
+          "experience_years": 3
+        }
+      }
+    ],
+    "matches": [
+      {
+        "match_id": "match81",
+        "date": "2025-01-12T19:15:48Z",
+        "teams": [
+          "Red Dragons",
+          "Blue Phoenix"
+        ],
+        "scores": {
+          "Red Dragons": 15,
+          "Blue Phoenix": 19
+        },
+        "best_player": {
+          "id": "player163",
+          "name": "Player163",
+          "score": 33
+        }
+      }
+    ]
+  },
+  {
+    "tournament": "Summer Clash 2027",
+    "location": "Berlin",
+    "date": "2026-07-09",
+    "teams": [
+      {
+        "name": "Red Dragons",
+        "players": [
+          {
+            "id": "player165",
+            "name": "Player165",
+            "role": "assault",
+            "email": "player165@gaming.net"
+          },
+          {
+            "id": "player166",
+            "name": "Player166",
+            "role": "assault",
+            "email": "player166@proleague.org"
+          }
+        ],
+        "coach": {
+          "name": "Coach A",
+          "experience_years": 10
+        }
+      },
+      {
+        "name": "Blue Phoenix",
+        "players": [
+          {
+            "id": "player167",
+            "name": "Player167",
+            "role": "assault",
+            "email": "player167@proleague.org"
+          },
+          {
+            "id": "player168",
+            "name": "Player168",
+            "role": "support",
+            "email": "player168@gaming.net"
+          }
+        ],
+        "coach": {
+          "name": "Coach B",
+          "experience_years": 3
+        }
+      }
+    ],
+    "matches": [
+      {
+        "match_id": "match83",
+        "date": "2026-09-21T19:38:20Z",
+        "teams": [
+          "Red Dragons",
+          "Blue Phoenix"
+        ],
+        "scores": {
+          "Red Dragons": 13,
+          "Blue Phoenix": 20
+        },
+        "best_player": {
+          "id": "player168",
+          "name": "Player168",
+          "score": 21
+        }
+      }
+    ]
+  },
+  {
+    "tournament": "Winter Showdown 2025",
+    "location": "Tokyo",
+    "date": "2027-01-09",
+    "teams": [
+      {
+        "name": "Red Dragons",
+        "players": [
+          {
+            "id": "player169",
+            "name": "Player169",
+            "role": "support",
+            "email": "player169@esports.com"
+          },
+          {
+            "id": "player170",
+            "name": "Player170",
+            "role": "scout",
+            "email": "player170@esports.com"
+          }
+        ],
+        "coach": {
+          "name": "Coach A",
+          "experience_years": 9
+        }
+      },
+      {
+        "name": "Blue Phoenix",
+        "players": [
+          {
+            "id": "player171",
+            "name": "Player171",
+            "role": "sniper",
+            "email": "player171@gaming.net"
+          },
+          {
+            "id": "player172",
+            "name": "Player172",
+            "role": "tank",
+            "email": "player172@esports.com"
+          }
+        ],
+        "coach": {
+          "name": "Coach B",
+          "experience_years": 11
+        }
+      }
+    ],
+    "matches": [
+      {
+        "match_id": "match85",
+        "date": "2027-06-10T18:24:24Z",
+        "teams": [
+          "Red Dragons",
+          "Blue Phoenix"
+        ],
+        "scores": {
+          "Red Dragons": 18,
+          "Blue Phoenix": 17
+        },
+        "best_player": {
+          "id": "player169",
+          "name": "Player169",
+          "score": 34
+        }
+      }
+    ]
+  },
+  {
+    "tournament": "Winter Showdown 2026",
+    "location": "Sydney",
+    "date": "2027-08-09",
+    "teams": [
+      {
+        "name": "Red Dragons",
+        "players": [
+          {
+            "id": "player173",
+            "name": "Player173",
+            "role": "tank",
+            "email": "player173@gaming.net"
+          },
+          {
+            "id": "player174",
+            "name": "Player174",
+            "role": "tank",
+            "email": "player174@proleague.org"
+          }
+        ],
+        "coach": {
+          "name": "Coach A",
+          "experience_years": 5
+        }
+      },
+      {
+        "name": "Blue Phoenix",
+        "players": [
+          {
+            "id": "player175",
+            "name": "Player175",
+            "role": "scout",
+            "email": "player175@proleague.org"
+          },
+          {
+            "id": "player176",
+            "name": "Player176",
+            "role": "sniper",
+            "email": "player176@gaming.net"
+          }
+        ],
+        "coach": {
+          "name": "Coach B",
+          "experience_years": 3
+        }
+      }
+    ],
+    "matches": [
+      {
+        "match_id": "match87",
+        "date": "2026-06-20T07:50:02Z",
+        "teams": [
+          "Red Dragons",
+          "Blue Phoenix"
+        ],
+        "scores": {
+          "Red Dragons": 11,
+          "Blue Phoenix": 16
+        },
+        "best_player": {
+          "id": "player174",
+          "name": "Player174",
+          "score": 24
+        }
+      }
+    ]
+  },
+  {
+    "tournament": "Spring Invitational 2027",
+    "location": "Berlin",
+    "date": "2026-10-01",
+    "teams": [
+      {
+        "name": "Red Dragons",
+        "players": [
+          {
+            "id": "player177",
+            "name": "Player177",
+            "role": "scout",
+            "email": "player177@gaming.net"
+          },
+          {
+            "id": "player178",
+            "name": "Player178",
+            "role": "sniper",
+            "email": "player178@esports.com"
+          }
+        ],
+        "coach": {
+          "name": "Coach A",
+          "experience_years": 6
+        }
+      },
+      {
+        "name": "Blue Phoenix",
+        "players": [
+          {
+            "id": "player179",
+            "name": "Player179",
+            "role": "tank",
+            "email": "player179@proleague.org"
+          },
+          {
+            "id": "player180",
+            "name": "Player180",
+            "role": "tank",
+            "email": "player180@gaming.net"
+          }
+        ],
+        "coach": {
+          "name": "Coach B",
+          "experience_years": 8
+        }
+      }
+    ],
+    "matches": [
+      {
+        "match_id": "match89",
+        "date": "2027-12-19T06:15:49Z",
+        "teams": [
+          "Red Dragons",
+          "Blue Phoenix"
+        ],
+        "scores": {
+          "Red Dragons": 12,
+          "Blue Phoenix": 19
+        },
+        "best_player": {
+          "id": "player179",
+          "name": "Player179",
+          "score": 33
+        }
+      }
+    ]
+  },
+  {
+    "tournament": "Spring Invitational 2027",
+    "location": "Paris",
+    "date": "2027-11-11",
+    "teams": [
+      {
+        "name": "Red Dragons",
+        "players": [
+          {
+            "id": "player181",
+            "name": "Player181",
+            "role": "scout",
+            "email": "player181@proleague.org"
+          },
+          {
+            "id": "player182",
+            "name": "Player182",
+            "role": "sniper",
+            "email": "player182@proleague.org"
+          }
+        ],
+        "coach": {
+          "name": "Coach A",
+          "experience_years": 5
+        }
+      },
+      {
+        "name": "Blue Phoenix",
+        "players": [
+          {
+            "id": "player183",
+            "name": "Player183",
+            "role": "scout",
+            "email": "player183@gaming.net"
+          },
+          {
+            "id": "player184",
+            "name": "Player184",
+            "role": "tank",
+            "email": "player184@gaming.net"
+          }
+        ],
+        "coach": {
+          "name": "Coach B",
+          "experience_years": 5
+        }
+      }
+    ],
+    "matches": [
+      {
+        "match_id": "match91",
+        "date": "2025-08-20T03:58:42Z",
+        "teams": [
+          "Red Dragons",
+          "Blue Phoenix"
+        ],
+        "scores": {
+          "Red Dragons": 9,
+          "Blue Phoenix": 17
+        },
+        "best_player": {
+          "id": "player184",
+          "name": "Player184",
+          "score": 20
+        }
+      }
+    ]
+  },
+  {
+    "tournament": "Winter Showdown 2026",
+    "location": "Los Angeles",
+    "date": "2026-08-14",
+    "teams": [
+      {
+        "name": "Red Dragons",
+        "players": [
+          {
+            "id": "player185",
+            "name": "Player185",
+            "role": "sniper",
+            "email": "player185@esports.com"
+          },
+          {
+            "id": "player186",
+            "name": "Player186",
+            "role": "assault",
+            "email": "player186@esports.com"
+          }
+        ],
+        "coach": {
+          "name": "Coach A",
+          "experience_years": 6
+        }
+      },
+      {
+        "name": "Blue Phoenix",
+        "players": [
+          {
+            "id": "player187",
+            "name": "Player187",
+            "role": "sniper",
+            "email": "player187@gaming.net"
+          },
+          {
+            "id": "player188",
+            "name": "Player188",
+            "role": "scout",
+            "email": "player188@esports.com"
+          }
+        ],
+        "coach": {
+          "name": "Coach B",
+          "experience_years": 6
+        }
+      }
+    ],
+    "matches": [
+      {
+        "match_id": "match93",
+        "date": "2025-12-08T03:49:58Z",
+        "teams": [
+          "Red Dragons",
+          "Blue Phoenix"
+        ],
+        "scores": {
+          "Red Dragons": 13,
+          "Blue Phoenix": 14
+        },
+        "best_player": {
+          "id": "player187",
+          "name": "Player187",
+          "score": 26
+        }
+      }
+    ]
+  },
+  {
+    "tournament": "Summer Clash 2027",
+    "location": "Berlin",
+    "date": "2027-03-18",
+    "teams": [
+      {
+        "name": "Red Dragons",
+        "players": [
+          {
+            "id": "player189",
+            "name": "Player189",
+            "role": "support",
+            "email": "player189@proleague.org"
+          },
+          {
+            "id": "player190",
+            "name": "Player190",
+            "role": "assault",
+            "email": "player190@esports.com"
+          }
+        ],
+        "coach": {
+          "name": "Coach A",
+          "experience_years": 4
+        }
+      },
+      {
+        "name": "Blue Phoenix",
+        "players": [
+          {
+            "id": "player191",
+            "name": "Player191",
+            "role": "assault",
+            "email": "player191@gaming.net"
+          },
+          {
+            "id": "player192",
+            "name": "Player192",
+            "role": "scout",
+            "email": "player192@gaming.net"
+          }
+        ],
+        "coach": {
+          "name": "Coach B",
+          "experience_years": 11
+        }
+      }
+    ],
+    "matches": [
+      {
+        "match_id": "match95",
+        "date": "2026-06-29T02:58:29Z",
+        "teams": [
+          "Red Dragons",
+          "Blue Phoenix"
+        ],
+        "scores": {
+          "Red Dragons": 10,
+          "Blue Phoenix": 11
+        },
+        "best_player": {
+          "id": "player189",
+          "name": "Player189",
+          "score": 28
+        }
+      }
+    ]
+  },
+  {
+    "tournament": "Winter Showdown 2026",
+    "location": "Seoul",
+    "date": "2026-01-17",
+    "teams": [
+      {
+        "name": "Red Dragons",
+        "players": [
+          {
+            "id": "player193",
+            "name": "Player193",
+            "role": "scout",
+            "email": "player193@gaming.net"
+          },
+          {
+            "id": "player194",
+            "name": "Player194",
+            "role": "tank",
+            "email": "player194@esports.com"
+          }
+        ],
+        "coach": {
+          "name": "Coach A",
+          "experience_years": 7
+        }
+      },
+      {
+        "name": "Blue Phoenix",
+        "players": [
+          {
+            "id": "player195",
+            "name": "Player195",
+            "role": "assault",
+            "email": "player195@esports.com"
+          },
+          {
+            "id": "player196",
+            "name": "Player196",
+            "role": "scout",
+            "email": "player196@proleague.org"
+          }
+        ],
+        "coach": {
+          "name": "Coach B",
+          "experience_years": 6
+        }
+      }
+    ],
+    "matches": [
+      {
+        "match_id": "match97",
+        "date": "2026-02-17T09:52:35Z",
+        "teams": [
+          "Red Dragons",
+          "Blue Phoenix"
+        ],
+        "scores": {
+          "Red Dragons": 18,
+          "Blue Phoenix": 11
+        },
+        "best_player": {
+          "id": "player196",
+          "name": "Player196",
+          "score": 26
+        }
+      }
+    ]
+  },
+  {
+    "tournament": "Autumn Arena 2025",
+    "location": "Shanghai",
+    "date": "2025-10-04",
+    "teams": [
+      {
+        "name": "Red Dragons",
+        "players": [
+          {
+            "id": "player197",
+            "name": "Player197",
+            "role": "assault",
+            "email": "player197@proleague.org"
+          },
+          {
+            "id": "player198",
+            "name": "Player198",
+            "role": "assault",
+            "email": "player198@proleague.org"
+          }
+        ],
+        "coach": {
+          "name": "Coach A",
+          "experience_years": 7
+        }
+      },
+      {
+        "name": "Blue Phoenix",
+        "players": [
+          {
+            "id": "player199",
+            "name": "Player199",
+            "role": "scout",
+            "email": "player199@gaming.net"
+          },
+          {
+            "id": "player200",
+            "name": "Player200",
+            "role": "scout",
+            "email": "player200@proleague.org"
+          }
+        ],
+        "coach": {
+          "name": "Coach B",
+          "experience_years": 5
+        }
+      }
+    ],
+    "matches": [
+      {
+        "match_id": "match99",
+        "date": "2025-08-08T07:16:55Z",
+        "teams": [
+          "Red Dragons",
+          "Blue Phoenix"
+        ],
+        "scores": {
+          "Red Dragons": 9,
+          "Blue Phoenix": 19
+        },
+        "best_player": {
+          "id": "player197",
+          "name": "Player197",
+          "score": 27
+        }
+      }
+    ]
+  }
+]

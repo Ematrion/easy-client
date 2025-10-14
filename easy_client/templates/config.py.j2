@@ -1,14 +1,18 @@
+"""Project settings for {{ api_name }} API."""
+
 from pydantic_settings import BaseSettings
 
 
 class Settings(BaseSettings):
-    """Project settings for {{ api_name }} API."""
-    {{ api_name|upper }}_API_KEY: str = ""
+    #API Specs
+    {{ api_name|upper }}_API_KEY: str | None = None
     {{ api_name|upper}}_API_URL: str = ""
 
-    {% for endpoint in endpoints %}
-    {{ endpoint|upper }}_URL: str = ""
-    {% endfor %}
+    # Endpoints urls
+    {%for endpoint in endpoints %}
+    {{ endpoint|upper }}_URL: str = f"{ {{ api_name|upper}}_API_URL }""/{{ endpoint }}"
+    {%- endfor %}
+
 
     class Config:
         env_file = ".env"

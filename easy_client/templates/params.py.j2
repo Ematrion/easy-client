@@ -1,0 +1,13 @@
+from easy_client.types import QueryParams
+
+{% for endpoint in endpoints %}
+GetParams{{endpoint|capitalize}}: QueryParams = {}
+{% endfor %}
+
+
+def get_default_params(endpoint: str) -> QueryParams:
+    {% for endpoint in endpoints %}
+    if endpoint == "{{ endpoint }}":
+        return GetParams{{ endpoint|capitalize }}
+    {% endfor %}
+    return {}
