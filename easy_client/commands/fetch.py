@@ -1,7 +1,7 @@
 from pathlib import Path
 import os
-from . import utils
-
+import easy_client.utils as utils
+from easy_client.utils import DynamicLoader
 
 def fetch(root: Path | None = None):
     print("Fetching data from API...")
@@ -13,19 +13,12 @@ def fetch(root: Path | None = None):
     endpoints = utils.get_api_endpoints()
 
     # setups
-    api_dir = root / api_name
-    data_dir = root / "data" / "raw"
-    fetcher_path = utils.find_path(root, "fetcher.py")
-
-    print(api_dir)
+    data_dir = root / api_name /"data" / "raw"
+    fetcher_class = DynamicLoader(api_name, root).load_fetcher()
+    fetcher = fetcher_class() # type: ignore -- use protcols to fix this
+    
     print(data_dir)
-    print(fetcher_path)
     print(endpoints)
-    fetcher_module = utils.load_module_from_path(f"{api_name.capitalize()}Fetcher",
-                                                 fetcher_path,
-                                                 api_dir)
-    fetcher_class = getattr(fetcher_module, f"{api_name.capitalize()}Fetcher")
-    fetcher = fetcher_class()
     print(fetcher)
 
     for endpoint in endpoints:

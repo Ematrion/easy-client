@@ -217,3 +217,7 @@ __marimo__/
 
 # devellopement files
 .dev/
+
+# test-api
+placeholder/
+dummy/

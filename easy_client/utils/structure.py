@@ -2,6 +2,42 @@ from types import ModuleType
 from pathlib import Path
 import importlib
 import sys
+import yaml
+
+
+def scaffold(api_name: str):
+    with open("easy_client/structure.yaml", "r") as struct_file:
+        scaffold = yaml.safe_load(struct_file)
+    api_struct = {}
+    api_struct[api_name] = scaffold["structure"]
+    return api_struct
+
+def tree_line(prefix: str, key: str, is_last: bool) -> str:
+    connector = "└── " if is_last else "├── "
+    return prefix + connector + str(key)
+
+def tree_string(scaffold: dict, prefix: str = "") -> str:
+    lines = []
+    keys = sorted(scaffold.keys())
+    count = len(keys)
+    for i, key in enumerate(keys):
+        new_line = ""
+        if key == "__meta__":
+            # this is not a structural node
+            continue
+        elif key == "files":
+            # this node contains all files of the directory
+            for j, file in enumerate(scaffold[key]):
+                f_count = len(scaffold[key])
+                lines.append(tree_line(prefix, file["name"], i + j== count + f_count - 2))
+        else:
+            # this is a directory node
+            lines.append(tree_line(prefix, key, i == count - 1))
+            extension = "    " if i == count - 1 else "│   "
+            new_line = tree_string(scaffold[key], prefix + extension)
+        if new_line:
+            lines.append(new_line)
+    return "\n".join(lines)
 
 
 def get_api_name() -> str:

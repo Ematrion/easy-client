@@ -1,9 +1,8 @@
 from pathlib import Path
 import os
-import json
 
 import easy_client.builders.validator as validator
-from  .utils import get_api_name, get_api_endpoints
+from  easy_client.utils import get_api_name, get_api_endpoints
 
 
 def enums_params():
@@ -39,8 +38,8 @@ def validate(root: Path | None = None):
     mode, nb, freg, thresh = enums_params()
 
     # setup
-    data_dir = root / "data" / "raw"
-    validation_dir = root / api_name / "client" / "validate"  # FIXME: use api or something
+    data_dir = root / api_name / "data" / "raw"
+    validation_dir = root / api_name / api_name / "client" / "validate"  # FIXME: use api or something
     
     for file in data_dir.glob("*.json"):
         base_name = os.path.basename(file)

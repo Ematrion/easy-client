@@ -10,7 +10,7 @@ class Settings(BaseSettings):
 
     # Endpoints urls
     {%for endpoint in endpoints %}
-    {{ endpoint|upper }}_URL: str = f"{ {{ api_name|upper}}_API_URL }""/{{ endpoint }}"
+    {{ endpoint|upper }}_URL: str = f"{ {{ api_name|upper}}_API_URL }/{{ endpoint }}"
     {%- endfor %}
 
 

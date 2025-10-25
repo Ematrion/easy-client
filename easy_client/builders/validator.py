@@ -260,7 +260,12 @@ def infer_schema_from_data(items: list[DataPoint], class_name: str, build_enums:
     if not field_of_dict and not field_of_list:
         one_big_item: dict[str, list[Any]] = summary_item(items)
         for field, values in one_big_item.items():
+            if field in fields_infos:
+                # dict and list already processed
+                continue
+            
             types = relevant_types([infer_type(value) for value in values])
+            
             if "str" in types and build_enums:
                 candidates = [v if isinstance(v, str) else None for v in values]
                 is_enum, enum_values = enums_from_values(candidates, max_enum, min_freq, threshold)

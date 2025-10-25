@@ -1,0 +1,87 @@
+
+
+
+structure:
+  __meta__:
+    description: >
+      ""
+  files:
+    - name: "README.md"
+      template: "README.md.j2"
+    - name: "TODO.md"
+      template: "TODO.md.j2"
+    - name: "progress.toml"
+      template: "progress.toml.j2"
+    # consider .env / .gitignore / tool building like poetry .toml / setup.py etc.
+  data:
+    __meta__:
+      description: >
+        ""
+    raw:
+      __meta__:
+        description: >
+          ""
+  etl:
+    __meta__:
+      description: >
+        ""
+    files:
+      - name: "__init__.py"
+        template: ""
+      - name: config.py
+        template: "config.py.j2"
+    extract:
+      __meta__:
+        description: >
+          ""
+      files:
+        - name: "__init__.py"
+          template: ""
+        - name: "fetcher.py"
+          template: "fetcher.py.j2"
+        - name: "params.py"
+          template: "params.py.j2"
+    transform:
+      __meta__:
+        description: >
+          ""
+      files:
+        - name: "__init__.py"
+          template: ""
+      validation:
+        __meta__:
+          description: >
+            ""
+        files:
+          - name: "__init__.py"
+            template: ""
+      sanitization:
+        __meta__:
+          description: >
+            ""
+        files:
+          - name: "__init__.py"
+            template: ""
+    loads:
+      __meta__:
+        description: >
+          ""
+      files:
+        - name: "__init__.py"
+          template: ""
+      database:
+        __meta__:
+          description: >
+            ""
+        files:
+          - name: "__init__.py"
+            template: ""
+          - name: "schema.py"
+            builder: "dbschema"
+        normalize:
+          __meta__:
+            description: >
+              ""
+          files:
+            - name: "__init__.py"
+              template: ""

@@ -4,7 +4,7 @@ from typing import Any
 
 from .params import get_default_params
 
-from config import settings
+from {{ api_name }}.{{ api_name }}.config import settings
 
 
 class {{ api_name|capitalize }}Fetcher(ApiFetcher):
@@ -17,7 +17,22 @@ class {{ api_name|capitalize }}Fetcher(ApiFetcher):
             "Authorization": f"Bearer {settings.{{ api_name|upper }}_API_KEY}",
             "Content-Type": "application/json",
         }
-        super().__init__(base_url, headers)
+
+        # TODO: add default query params if needed
+        params = {}
+
+        # TODO: update content-type supports
+        content = [
+            "application/json",
+            "application/xml",
+            "text/html",
+            "text/plain",
+            "application/octet-stream",
+            "image/",
+            "video/"
+        ]
+        
+        super().__init__(base_url, headers, params, content)
 {% for endpoint in endpoints %}
     def fetch_{{ endpoint }}(self, headers: Header | None = None, **kwargs: Any) -> ResponseData:
     

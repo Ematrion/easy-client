@@ -1,8 +1,7 @@
 from pathlib import Path
 from easy_client.builders.project_builder import ProjectBuilder
 from easy_client.builders.buildersABC import ContentMaker
-# from easy_client.types import FileTree
-from .utils import tree_file_string, get_api_name, get_api_endpoints
+from easy_client.utils import tree_file_string, get_api_name, get_api_endpoints
 
 
 def create(root: Path | None = None):

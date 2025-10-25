@@ -4,7 +4,7 @@ from typing import Any
 
 from .params import get_default_params
 
-from config import settings
+from placeholder.placeholder.config import settings
 
 
 class PlaceholderFetcher(ApiFetcher):
@@ -17,16 +17,22 @@ class PlaceholderFetcher(ApiFetcher):
             "Authorization": f"Bearer {settings.PLACEHOLDER_API_KEY}",
             "Content-Type": "application/json",
         }
-        super().__init__(base_url, headers)
 
-    def fetch_posts(self, headers: Header | None = None, **kwargs: Any) -> ResponseData:
-    
-        # TODO: edit params
-        params = get_default_params("posts")
-        params.update(kwargs)
+        # TODO: add default query params if needed
+        params = {}
+
+        # TODO: update content-type supports
+        content = [
+            "application/json",
+            "application/xml",
+            "text/html",
+            "text/plain",
+            "application/octet-stream",
+            "image/",
+            "video/"
+        ]
         
-        return self._request_handler(settings.POSTS_URL, headers=headers, params=params)
-
+        super().__init__(base_url, headers, params, content)
 
     def fetch_comments(self, headers: Header | None = None, **kwargs: Any) -> ResponseData:
     
@@ -35,6 +41,15 @@ class PlaceholderFetcher(ApiFetcher):
         params.update(kwargs)
         
         return self._request_handler(settings.COMMENTS_URL, headers=headers, params=params)
+
+
+    def fetch_posts(self, headers: Header | None = None, **kwargs: Any) -> ResponseData:
+    
+        # TODO: edit params
+        params = get_default_params("posts")
+        params.update(kwargs)
+        
+        return self._request_handler(settings.POSTS_URL, headers=headers, params=params)
 
 
     def fetch_albums(self, headers: Header | None = None, **kwargs: Any) -> ResponseData:
@@ -55,15 +70,6 @@ class PlaceholderFetcher(ApiFetcher):
         return self._request_handler(settings.PHOTOS_URL, headers=headers, params=params)
 
 
-    def fetch_todos(self, headers: Header | None = None, **kwargs: Any) -> ResponseData:
-    
-        # TODO: edit params
-        params = get_default_params("todos")
-        params.update(kwargs)
-        
-        return self._request_handler(settings.TODOS_URL, headers=headers, params=params)
-
-
     def fetch_users(self, headers: Header | None = None, **kwargs: Any) -> ResponseData:
     
         # TODO: edit params
@@ -71,4 +77,13 @@ class PlaceholderFetcher(ApiFetcher):
         params.update(kwargs)
         
         return self._request_handler(settings.USERS_URL, headers=headers, params=params)
+
+
+    def fetch_todos(self, headers: Header | None = None, **kwargs: Any) -> ResponseData:
+    
+        # TODO: edit params
+        params = get_default_params("todos")
+        params.update(kwargs)
+        
+        return self._request_handler(settings.TODOS_URL, headers=headers, params=params)
 

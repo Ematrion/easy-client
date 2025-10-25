@@ -4,18 +4,19 @@ from pydantic_settings import BaseSettings
 
 
 class Settings(BaseSettings):
-    # API Specs
+    #API Specs
     PLACEHOLDER_API_KEY: str | None = None
     PLACEHOLDER_API_URL: str = "https://jsonplaceholder.typicode.com"
 
     # Endpoints urls
+    
+    COMMENTS_URL: str = f"{ PLACEHOLDER_API_URL }/comments"
+    POSTS_URL: str = f"{ PLACEHOLDER_API_URL }/posts"
+    ALBUMS_URL: str = f"{ PLACEHOLDER_API_URL }/albums"
+    PHOTOS_URL: str = f"{ PLACEHOLDER_API_URL }/photos"
+    USERS_URL: str = f"{ PLACEHOLDER_API_URL }/users"
+    TODOS_URL: str = f"{ PLACEHOLDER_API_URL }/todos"
 
-    POSTS_URL: str = f"{PLACEHOLDER_API_URL}""/posts"
-    COMMENTS_URL: str = f"{PLACEHOLDER_API_URL}""/comments"
-    ALBUMS_URL: str = f"{PLACEHOLDER_API_URL}""/albums"
-    PHOTOS_URL: str = f"{PLACEHOLDER_API_URL}""/photos"
-    TODOS_URL: str = f"{PLACEHOLDER_API_URL}""/todos"
-    USERS_URL: str = f"{PLACEHOLDER_API_URL}""/users"
 
     class Config:
         env_file = ".env"

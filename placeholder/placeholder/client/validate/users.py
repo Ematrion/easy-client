@@ -11,15 +11,15 @@ class GeoModel(BaseModel):
 	lng: datetime | str
 
 class AddressModel(BaseModel):
-	geo: dict
+	geo: GeoModel
 	street: str
 	suite: str
 	city: str
 	zipcode: str
 
 class Users(BaseModel):
-	company: dict
-	address: dict
+	company: CompanyModel
+	address: AddressModel
 	id: int
 	name: str
 	username: str
